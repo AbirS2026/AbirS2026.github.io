@@ -3,13 +3,42 @@ layout: default
 title: Home
 ---
 
+```html
 <section class="hero">
   <div>
     <p class="eyebrow">About me</p>
-    <!-- <h1>Abir Sarkar</h1> -->
+
     <p class="lead">
-      I am a PhD student in the department of Statistics and Data Science at Cornell University. My interests include econometrics, studying non-stationary problems, optimization, statistical learning theory.
+      I am a Ph.D. student in the 
+      <a href="https://stat.cornell.edu/" target="_blank" rel="noopener">
+        Department of Statistics and Data Science
+      </a>
+      at 
+      <a href="https://www.cornell.edu/" target="_blank" rel="noopener">
+        Cornell University
+      </a>,
+      where I am advised by 
+      <a href="https://stat.cornell.edu/people/martin-t-wells" target="_blank" rel="noopener">
+        Martin T. Wells
+      </a>.
+      My research interests include econometrics, non-stationary time series, optimization,
+      and statistical learning theory.
     </p>
+
+    <p>
+      Prior to Cornell, I spent two wonderful years at 
+      <a href="https://www.capitalone.com/" target="_blank" rel="noopener">
+        Capital One
+      </a>.
+      I received my B.Stat. in 2021 and M.Stat. in 2023 from the 
+      <a href="https://www.isical.ac.in/index" target="_blank" rel="noopener">
+        Indian Statistical Institute, Kolkata
+      </a>.
+    </p>
+  </div>
+</section>
+```
+
 
     <p class="muted">
       I use this website to collect my research, teaching material, and occasional writing on
