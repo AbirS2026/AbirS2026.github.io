@@ -394,7 +394,7 @@ a:hover {
 
 .paper-list {
   display: grid;
-  gap: 1.3rem;
+  gap: 0.8rem;
   margin-top: 1.5rem;
   margin-bottom: 2.4rem;
 }
