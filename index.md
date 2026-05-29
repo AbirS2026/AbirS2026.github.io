@@ -35,12 +35,25 @@ title: Home
     </p>
 
     <div class="button-row">
-      <a class="button" href="{{ '/research/' | relative_url }}">Research</a>
-      <a class="button" href="{{ '/cv/' | relative_url }}">CV</a>
-      <a class="button icon-button" href="mailto:as4458@cornell.edu" aria-label="Email">✉</a>
-      <a class="button icon-button" href="https://github.com/AbirS2026" target="_blank" rel="noopener" aria-label="GitHub">⌘</a>
-      <a class="button icon-button" href="#" aria-label="Google Scholar">♟</a>
-    </div>
+  <a class="button" href="{{ '/research/' | relative_url }}">Research</a>
+  <a class="button" href="{{ '/cv/' | relative_url }}">CV</a>
+
+  <a class="button icon-button" href="https://scholar.google.com/citations?hl=en&user=a893O5cAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+    <i class="ai ai-google-scholar"></i>
+  </a>
+
+  <a class="button icon-button" href="https://github.com/AbirS2026" target="_blank" rel="noopener" aria-label="GitHub">
+    <i class="fa-brands fa-github"></i>
+  </a>
+
+  <a class="button icon-button" href="https://www.linkedin.com/in/abir-sarkar-isikolkata/" target="_blank" rel="noopener" aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+
+  <a class="button icon-button" href="mailto:as4458@cornell.edu" aria-label="Email">
+    <i class="fa-solid fa-envelope"></i>
+  </a>
+</div>
   </div>
 
   <div class="profile-card">
