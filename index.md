@@ -55,7 +55,7 @@ title: Home
   </a>
 </div> 
  
-
+</div>
   <div class="profile-card">
     <img src="{{ '/assets/img/2025_11_CIS_Abir_ 6.jpg' | relative_url }}" alt="Abir Sarkar">
   </div>
