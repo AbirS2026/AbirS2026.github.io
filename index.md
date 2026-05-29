@@ -40,9 +40,7 @@ title: Home
 ```
 
 
-    <p class="muted">
-      I use this website to collect my research, teaching material, and occasional writing on
-      econometrics, statistics, policy, and academia.
+    
     </p>
 
     <div class="button-row">
