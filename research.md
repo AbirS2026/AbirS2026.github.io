@@ -68,38 +68,4 @@
 
 </div>
 
-<h2>Research interests</h2>
 
-<div class="grid two">
-  <article class="card">
-    <h3>Time series econometrics</h3>
-    <p>
-      Persistence, unit roots, explosive alternatives, stochastic volatility,
-      and inference under nonstationarity.
-    </p>
-  </article>
-
-  <article class="card">
-    <h3>Optimization and learning</h3>
-    <p>
-      Nonstationary optimization, adaptive methods, statistical learning theory,
-      and provable algorithmic tradeoffs.
-    </p>
-  </article>
-
-  <article class="card">
-    <h3>Empirical Bayes and prediction</h3>
-    <p>
-      Predictive density estimation, covariate shift, imbalanced mixed models,
-      and high-dimensional statistical methodology.
-    </p>
-  </article>
-
-  <article class="card">
-    <h3>Robust inference</h3>
-    <p>
-      Minimum divergence estimation, breakdown point analysis, and robustness
-      under model misspecification.
-    </p>
-  </article>
-</div>
