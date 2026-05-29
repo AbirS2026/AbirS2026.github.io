@@ -8,8 +8,7 @@ title: Home
     <p class="eyebrow">About me</p>
     <!-- <h1>Abir Sarkar</h1> -->
     <p class="lead">
-      I am a PhD student in the department of Statistics and Data Science at Cornell University. My interests include time series econometrics,
-      stochastic volatility, unit root testing, and asymptotic theory.
+      I am a PhD student in the department of Statistics and Data Science at Cornell University. My interests include econometrics, studying non-stationary problems, optimization, statistical learning theory.
     </p>
 
     <p class="muted">
