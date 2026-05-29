@@ -53,7 +53,7 @@ title: Home
   </div>
 
   <div class="profile-card">
-    <img src="{{ '/assets/img/profile.svg' | relative_url }}" alt="Profile photo placeholder">
+    <img src="{{ '/assets/img/2025_11_CIS_Abir_ 6.jpg' | relative_url }}" alt="Abir Sarkar">
   </div>
 </section>
 
