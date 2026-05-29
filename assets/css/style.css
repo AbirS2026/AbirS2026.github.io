@@ -296,3 +296,13 @@ a:hover { color: var(--accent-2); text-decoration: underline; }
   font-size: 1.0rem;
   line-height: 1.65;
 }
+.hero .about-text {
+  font-size: 1.05rem !important;
+  line-height: 1.65 !important;
+  font-weight: 400 !important;
+  letter-spacing: normal !important;
+}
+
+.hero .about-text a {
+  font-size: inherit !important;
+}
