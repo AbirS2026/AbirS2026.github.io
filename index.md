@@ -30,8 +30,8 @@ title: Home
         Capital One. </a>
       I received my B.Stat. in 2021 and M.Stat. in 2023 from the
       <a href="https://www.isical.ac.in/index" target="_blank" rel="noopener">
-        Indian Statistical Institute, Kolkata
-      </a>.
+        Indian Statistical Institute, Kolkata.
+      </a>
     </p>
 
  <div class="button-row">
