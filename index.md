@@ -6,7 +6,7 @@ title: Home
 <section class="hero">
   <div>
     <p class="eyebrow">About me</p>
-    <h1>Abir Sarkar</h1>
+    <!-- <h1>Abir Sarkar</h1> -->
     <p class="lead">
       I am a PhD student in the department of Statistics and Data Science at Cornell University. My interests include time series econometrics,
       stochastic volatility, unit root testing, and asymptotic theory.
