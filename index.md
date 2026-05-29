@@ -53,7 +53,7 @@ title: Home
   <a class="button icon-button" href="mailto:as4458@cornell.edu" aria-label="Email" title="Email">
     <i class="fa-solid fa-envelope"></i>
   </a>
-</div>
+</div> 
  
 
   <div class="profile-card">
