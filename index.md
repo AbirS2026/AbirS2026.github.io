@@ -14,12 +14,12 @@ title: Home
   </a>
   at
   <a href="https://www.cornell.edu/" target="_blank" rel="noopener">
-    Cornell University
-  </a>,
+    Cornell University,
+  </a>
   where I am advised by
   <a href="https://stat.cornell.edu/people/martin-t-wells" target="_blank" rel="noopener">
-    Martin T. Wells
-  </a>.
+    Martin T. Wells.
+  </a>
   My research interests include econometrics, non-stationary problems,
   optimization, and statistical learning theory.
 </p>
@@ -27,12 +27,12 @@ title: Home
 <p class="about-text">
   Prior to Cornell, I spent two wonderful years at
   <a href="https://www.capitalone.com/" target="_blank" rel="noopener">
-    Capital One
-  </a>.
+    Capital One.
+  </a>
   I received my B.Stat. in 2021 and M.Stat. in 2023 from the
   <a href="https://www.isical.ac.in/index" target="_blank" rel="noopener">
-    Indian Statistical Institute, Kolkata
-  </a>.
+    Indian Statistical Institute, Kolkata.
+  </a>
 </p>
 
  <div class="button-row">
