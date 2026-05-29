@@ -409,7 +409,7 @@ a:hover {
 }
 
 .paper-title {
-  font-size: clamp(1.18rem, 1.8vw, 1.65rem);
+  font-size: clamp(1.05rem, 1.5vw, 1.35rem);
   line-height: 1.22;
   margin: 0 0 0.4rem;
 }
