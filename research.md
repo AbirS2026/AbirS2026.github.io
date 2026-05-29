@@ -1,4 +1,3 @@
----
 
 
 <p class="eyebrow">Research</p>
