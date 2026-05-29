@@ -20,15 +20,14 @@ title: Home
       <a href="https://stat.cornell.edu/people/martin-t-wells" target="_blank" rel="noopener">
         Martin T. Wells
       </a>.
-      My research interests include econometrics, non-stationary time series,
+      My research interests include econometrics, non-stationary problems,
       optimization, and statistical learning theory.
     </p>
 
     <p>
       Prior to Cornell, I spent two wonderful years at
       <a href="https://www.capitalone.com/" target="_blank" rel="noopener">
-        Capital One
-      </a>.
+        Capital One. </a>
       I received my B.Stat. in 2021 and M.Stat. in 2023 from the
       <a href="https://www.isical.ac.in/index" target="_blank" rel="noopener">
         Indian Statistical Institute, Kolkata
