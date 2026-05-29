@@ -308,7 +308,7 @@ a:hover { color: var(--accent-2); text-decoration: underline; }
 }
 .paper-list {
 display: grid;
-gap: 2.5rem;
+gap: 1.5rem;
 margin-top: 2.5rem;
 margin-bottom: 3rem;
 }
@@ -319,7 +319,7 @@ border-bottom: 1px solid var(--border);
 }
 
 .paper-title {
-font-size: clamp(1.85rem, 3vw, 3rem);
+font-size: clamp(1.15rem, 3vw, 3rem);
 line-height: 1.12;
 margin-bottom: 0.7rem;
 }
@@ -389,11 +389,7 @@ padding-bottom: 2rem;
 border-bottom: 1px solid var(--border);
 }
 
-.paper-title {
-font-size: clamp(1.7rem, 2.6vw, 2.7rem);
-line-height: 1.15;
-margin-bottom: 0.7rem;
-}
+
 
 .paper-authors {
 font-size: 1.2rem;
