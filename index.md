@@ -14,12 +14,12 @@ title: Home
       </a>
       at
       <a href="https://www.cornell.edu/" target="_blank" rel="noopener">
-        Cornell University
-      </a>,
+        Cornell University,
+      </a>
       where I am advised by
       <a href="https://stat.cornell.edu/people/martin-t-wells" target="_blank" rel="noopener">
-        Martin T. Wells
-      </a>.
+        Martin T. Wells.
+      </a>
       My research interests include econometrics, non-stationary problems,
       optimization, and statistical learning theory.
     </p>
