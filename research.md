@@ -1,9 +1,5 @@
 ---
 
-layout: default
-title: Research
-permalink: /research/
----------------------
 
 <p class="eyebrow">Research</p>
 <h1 class="research-heading">Research</h1>
