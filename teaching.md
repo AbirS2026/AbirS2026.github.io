@@ -1,6 +1,5 @@
 
 
-<p class="eyebrow">Teaching</p>
 <h1>Teaching</h1>
 
 <p class="lead">
