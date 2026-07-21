@@ -16,7 +16,7 @@ title: Home
   <a href="https://www.cornell.edu/" target="_blank" rel="noopener">
     Cornell University,
   </a>
-  where I am advised by
+  where I am advised by Professor
   <a href="https://stat.cornell.edu/people/martin-t-wells" target="_blank" rel="noopener">
     Martin T. Wells.
   </a>
