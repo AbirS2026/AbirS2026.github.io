@@ -8,17 +8,47 @@ permalink: /teaching/
 <h1>Teaching</h1>
 
 <p class="lead">
-  Teaching material, office-hour notes, and course resources.
+  Teaching experience at Cornell University in economics and statistics.
 </p>
 
 <div class="grid two">
   <article class="card">
-    <h3>Course title</h3>
-    <p>Role, semester, institution. Add lecture notes, problem sets, or slides here.</p>
+    <p class="eyebrow">Fall 2025</p>
+    <h3>
+      <a href="https://classes.cornell.edu/browse/roster/FA26/class/ECON/2801"
+         target="_blank"
+         rel="noopener">
+        ECON 2801: Game Theory—For Economics, Politics, Knowledge, and Rationality
+      </a>
+    </h3>
+    <p>
+      <strong>Role:</strong> Grader<br>
+      <strong>Instructor:</strong>
+      <a href="https://en.wikipedia.org/wiki/Kaushik_Basu"
+         target="_blank"
+         rel="noopener">
+        Professor Kaushik Basu
+      </a>
+    </p>
   </article>
 
   <article class="card">
-    <h3>Reading notes</h3>
-    <p>Short notes on probability, statistics, econometrics, and time series.</p>
+    <p class="eyebrow">Spring 2026</p>
+    <h3>
+      <a href="https://classes.cornell.edu/browse/roster/FA26/class/STSCI/4981"
+         target="_blank"
+         rel="noopener">
+        STSCI 4981: Sports Analytics in Practice
+      </a>
+    </h3>
+    <p>
+      <strong>Role:</strong> Teaching Assistant and Grader<br>
+      <strong>Instructor:</strong>
+      <a href="https://stat.cornell.edu/people/martin-t-wells"
+         target="_blank"
+         rel="noopener">
+        Professor Martin T. Wells
+      </a>
+    </p>
   </article>
 </div>
