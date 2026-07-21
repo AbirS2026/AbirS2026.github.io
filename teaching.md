@@ -1,8 +1,4 @@
----
-layout: default
-title: Teaching
-permalink: /teaching/
----
+
 
 <p class="eyebrow">Teaching</p>
 <h1>Teaching</h1>
