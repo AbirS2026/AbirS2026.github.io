@@ -10,18 +10,13 @@
 
 <div class="paper-list">
 
-  <article class="paper-item">
-    <h2 class="paper-title">Is There an AI Bubble? Robust Date-Stamping for Periods of Exuberance</h2>
-    <p class="paper-authors">Abir Sarkar and Martin T. Wells</p>
-    Accepted in
-<a href="https://www.aimsciences.org/fmf" target="_blank" rel="noopener">
-  Frontiers of Mathematical Finance
- </a>
- </p>
-<div class="paper-links">
-      <a href="https://arxiv.org/pdf/2604.12062" target="_blank" rel="noopener">arXiv</a>
-      <a href="https://github.com/AbirS2026/SVADF-Bubble" target="_blank" rel="noopener">Code</a>
-    </div>
+  <article class="paper-item"> <h2 class="paper-title"> Is There an AI Bubble? Robust Date-Stamping for Periods of Exuberance </h2>
+
+<p class="paper-authors"> Abir Sarkar and Martin T. Wells </p>
+
+<p class="paper-meta"> Accepted in <a href="https://www.aimsciences.org/fmf" target="_blank" rel="noopener"> Frontiers of Mathematical Finance </a> </p>
+
+<div class="paper-links"> <a href="https://arxiv.org/pdf/2604.12062" target="_blank" rel="noopener">arXiv</a> <a href="https://github.com/AbirS2026/SVADF-Bubble" target="_blank" rel="noopener">Code</a> </div> </article>
   </article>
 
   <article class="paper-item">
