@@ -1,6 +1,6 @@
 
 
-<p class="eyebrow">Research</p>
+
 <h1 class="research-heading">Research</h1>
 
 <p class="research-intro">
