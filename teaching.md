@@ -1,4 +1,4 @@
-isting Teaching section on your GitHub webpage with:
+
 <section id="teaching">
   <h1>Teaching</h1>
 
