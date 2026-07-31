@@ -1,9 +1,4 @@
----
 
-layout: default
-title: CV
-permalink: /cv/
----------------
 
 <section id="cv">
   <p class="eyebrow">CV</p>
