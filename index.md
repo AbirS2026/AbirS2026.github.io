@@ -62,30 +62,49 @@ title: Home
   </div>
 </section>
 
-<section>
-  <h2>Selected research</h2>
+<section id="research">
+  <h1>Selected Research</h1>
 
   <div class="grid three">
-    <article class="card">
-      <h3>Is There an AI Bubble</h3>
-      <p>
-        Volatility Robust ADF test procedure, its Limit theory and inference for time-varying volatility.
-      </p>
-    </article>
 
-    <article class="card">
-      <h3>Explosive and mildly explosive processes</h3>
+    <a class="card research-card"
+       href="https://www.aimsciences.org/article/doi/10.3934/fmf.2026005"
+       target="_blank"
+       rel="noopener"
+       aria-label="Read Is There an AI Bubble?">
+      <h3>Is There an AI Bubble?</h3>
       <p>
-        Asymptotic approximations for autoregressive models near and beyond the unit root boundary.
+        We develop a volatility-robust recursive ADF framework for detecting and
+        date-stamping asset-price bubbles under persistent and time-varying volatility.
       </p>
-    </article>
+    </a>
 
-    <article class="card">
-      <h3>Financial time series</h3>
+    <a class="card research-card"
+       href="https://arxiv.org/abs/2605.04269"
+       target="_blank"
+       rel="noopener"
+       aria-label="Read SGD vs. Adam: The Noise–Drift Tradeoff">
+      <h3>SGD vs. Adam: The Noise–Drift Tradeoff</h3>
       <p>
-        Econometric methods for volatility, persistence, and structural instability in financial data.
+        We develop a finite-time analysis of Adam under nonstationary stochastic
+        objectives, showing that Adam benefits noise-dominated regimes, whereas
+        preconditioner lag and stale momentum can make SGD preferable when drift dominates.
       </p>
-    </article>
+    </a>
+
+    <a class="card research-card"
+       href="https://arxiv.org/abs/2512.06823"
+       target="_blank"
+       rel="noopener"
+       aria-label="Read Inference under Nearly Nonstationary Volatility">
+      <h3>Inference under Nearly Nonstationary Volatility</h3>
+      <p>
+        We develop moderate-deviation theory for autoregressive models with nearly
+        nonstationary stochastic volatility and obtain inference that is robust to
+        volatility spikes and spurious explosive signals.
+      </p>
+    </a>
+
   </div>
 </section>
 
