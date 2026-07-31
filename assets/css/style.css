@@ -546,3 +546,78 @@ a:hover {
   outline: 2px solid var(--accent, #718096);
   outline-offset: 4px;
 }
+.contact-card {
+  padding: 2rem;
+}
+
+.contact-row {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  gap: 1rem;
+  align-items: start;
+  margin-bottom: 1.8rem;
+}
+
+.contact-row:last-child {
+  margin-bottom: 0;
+}
+
+.contact-row h3 {
+  margin: 0 0 0.3rem;
+}
+
+.contact-row p {
+  margin: 0;
+  line-height: 1.55;
+}
+
+.contact-icon {
+  width: 3.1rem;
+  height: 3.1rem;
+  border: 2px solid var(--border, #34414a);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--link, #8fc8ff);
+}
+
+.contact-icon svg {
+  width: 1.45rem;
+  height: 1.45rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.linkedin-icon {
+  font-size: 1.35rem;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+}
+
+.contact-row a {
+  color: var(--link, #8fc8ff);
+  text-decoration: none;
+}
+
+.contact-row a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .contact-card {
+    padding: 1.4rem;
+  }
+
+  .contact-row {
+    grid-template-columns: 3.2rem 1fr;
+  }
+
+  .contact-icon {
+    width: 2.7rem;
+    height: 2.7rem;
+  }
+}
