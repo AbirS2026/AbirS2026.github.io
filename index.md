@@ -108,20 +108,63 @@ title: Home
   </div>
 </section>
 
-<section>
-  <h2>Recent writing</h2>
+<section id="contact">
+  <h2>Contact</h2>
 
-  <div class="list">
-    {% for post in site.posts limit:3 %}
-      <article class="item">
-        <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-        <h3>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        </h3>
-        {% if post.excerpt %}
-          <p class="muted">{{ post.excerpt | strip_html | truncate: 190 }}</p>
-        {% endif %}
-      </article>
-    {% endfor %}
+  <div class="card contact-card">
+
+    <div class="contact-row">
+      <div class="contact-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M4 6h16v12H4z"></path>
+          <path d="m4 7 8 6 8-6"></path>
+        </svg>
+      </div>
+
+      <div>
+        <h3>Email</h3>
+        <p>
+          <a href="mailto:as4458@cornell.edu">
+            as4458@cornell.edu
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="contact-row">
+      <div class="contact-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 21s6-5.2 6-11a6 6 0 1 0-12 0c0 5.8 6 11 6 11z"></path>
+          <circle cx="12" cy="10" r="2"></circle>
+        </svg>
+      </div>
+
+      <div>
+        <h3>Affiliation</h3>
+        <p>
+          Department of Statistics and Data Science<br>
+          Cornell University<br>
+          Ithaca, NY
+        </p>
+      </div>
+    </div>
+
+    <div class="contact-row">
+      <div class="contact-icon linkedin-icon" aria-hidden="true">
+        in
+      </div>
+
+      <div>
+        <h3>LinkedIn</h3>
+        <p>
+          <a href="https://www.linkedin.com/in/abir-sarkar-isikolkata"
+             target="_blank"
+             rel="noopener">
+            linkedin.com/in/abir-sarkar-isikolkata
+          </a>
+        </p>
+      </div>
+    </div>
+
   </div>
 </section>
