@@ -173,7 +173,7 @@ title: Home
       <div class="contact-content">
         <h3>Office address</h3>
         <p>
-          Department of Statistics and Data Science<br>
+          301 CIS Building, Department of Statistics and Data Science<br>
           Cornell University<br>
           Ithaca, NY 14853
         </p>
