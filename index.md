@@ -67,9 +67,9 @@ title: Home
 
   <div class="grid three">
     <article class="card">
-      <h3>Unit root testing under stochastic volatility</h3>
+      <h3>Is There an AI Bubble</h3>
       <p>
-        Limit theory and inference for persistent time series with time-varying volatility.
+        Volatility Robust ADF test procedure, its Limit theory and inference for time-varying volatility.
       </p>
     </article>
 
