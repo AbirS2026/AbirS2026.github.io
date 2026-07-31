@@ -1,7 +1,4 @@
 
-
-
-  <p class="eyebrow">CV</p>
   <h1>Curriculum Vitae</h1>
 
   <div class="card">
