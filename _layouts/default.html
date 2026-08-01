@@ -3,6 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    (function () {
+      const stored = localStorage.getItem("theme");
+      const prefersLight =
+        window.matchMedia("(prefers-color-scheme: light)").matches;
+
+      document.documentElement.setAttribute(
+        "data-theme",
+        stored || (prefersLight ? "light" : "dark")
+      );
+    })();
+  </script>
+
   <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
@@ -36,10 +49,16 @@
        
         <a href="{{ '/teaching/' | relative_url }}" {% if page.url contains '/teaching/' %}class="active"{% endif %}>Teaching</a>
         <a href="{{ '/cv/' | relative_url }}" {% if page.url contains '/cv/' %}class="active"{% endif %}>CV</a>
-        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle color theme">
-          <span class="sun">☼</span><span class="moon">☾</span>
-        </button>
-      </nav>
+        <button
+    id="theme-toggle"
+    class="theme-toggle"
+    type="button"
+    aria-label="Toggle color theme"
+    title="Toggle color theme">
+    <span class="sun" aria-hidden="true">☼</span>
+    <span class="moon" aria-hidden="true">☾</span>
+  </button>
+</nav>
     </div>
   </header>
 
