@@ -59,11 +59,13 @@
     <h2 class="paper-title">Asymptotic Breakdown Point Analysis for a General Class of Minimum Divergence Estimators</h2>
     <p class="paper-authors">Subhrajyoty Roy, Abir Sarkar, Abhik Ghosh, and Ayanendranath Basu</p>
     <p class="paper-meta">
-      Accepted in
-      <a href="https://www.bernoullisociety.org/publications/bernoulli-journal" target="_blank" rel="noopener">
-        Bernoulli
-      </a>
-      </p>
+  Accepted in
+  <a href="https://projecteuclid.org/journals/bernoulli/volume-32/issue-1/Asymptotic-breakdown-point-analysis-for-a-general-class-of-minimum/10.3150/25-BEJ1876.short"
+     target="_blank"
+     rel="noopener">
+    Bernoulli
+  </a>
+</p>
     <div class="paper-links">
       <a href="https://arxiv.org/pdf/2304.07466" target="_blank" rel="noopener">arXiv</a>
       <a href="https://github.com/subroy13/msde-breakdown" target="_blank" rel="noopener">Code</a>
