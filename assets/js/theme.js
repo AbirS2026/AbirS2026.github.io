@@ -1,35 +1,63 @@
-```javascript
-(function () {
+document.addEventListener("DOMContentLoaded", function () {
+  const root = document.documentElement;
   const toggle = document.getElementById("theme-toggle");
 
-  function setTheme(theme) {
-    if (theme !== "dark" && theme !== "light") {
-      theme = "dark";
+  function getStoredTheme() {
+    try {
+      return localStorage.getItem("theme");
+    } catch (error) {
+      return null;
     }
-
-    document.documentElement.setAttribute("data-theme", theme);
-    localStorage.setItem("theme", theme);
   }
 
-  const savedTheme = localStorage.getItem("theme");
-
-  if (savedTheme === "dark" || savedTheme === "light") {
-    setTheme(savedTheme);
-  } else {
-    setTheme("dark");
+  function storeTheme(theme) {
+    try {
+      localStorage.setItem("theme", theme);
+    } catch (error) {
+      // Theme switching should still work when storage is unavailable.
+    }
   }
+
+  function applyTheme(theme) {
+    const validTheme = theme === "light" ? "light" : "dark";
+
+    root.setAttribute("data-theme", validTheme);
+    storeTheme(validTheme);
+
+    if (toggle) {
+      const switchingTo = validTheme === "light" ? "dark" : "light";
+
+      toggle.setAttribute(
+        "aria-label",
+        `Switch to ${switchingTo} theme`
+      );
+
+      toggle.setAttribute(
+        "title",
+        `Switch to ${switchingTo} theme`
+      );
+    }
+  }
+
+  const savedTheme = getStoredTheme();
+
+  const initialTheme =
+    savedTheme === "light" || savedTheme === "dark"
+      ? savedTheme
+      : window.matchMedia("(prefers-color-scheme: light)").matches
+        ? "light"
+        : "dark";
+
+  applyTheme(initialTheme);
 
   if (toggle) {
-    toggle.addEventListener("click", function (event) {
-      event.preventDefault();
-
+    toggle.addEventListener("click", function () {
       const currentTheme =
-        document.documentElement.getAttribute("data-theme") || "dark";
+        root.getAttribute("data-theme") === "light"
+          ? "light"
+          : "dark";
 
-      const nextTheme = currentTheme === "dark" ? "light" : "dark";
-
-      setTheme(nextTheme);
+      applyTheme(currentTheme === "light" ? "dark" : "light");
     });
   }
-})();
-```
+});
