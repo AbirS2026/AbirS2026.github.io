@@ -5,7 +5,7 @@
 
 <p class="research-intro">
   My research interests include time series econometrics, non-stationary problems,
-  optimization, empirical Bayes methods under covariate shifts, and causal inference. Please find below some of my research.
+  optimization, empirical Bayes, and causal inference. Please find below some of my research.
 </p>
 
 <div class="paper-list">
