@@ -8,27 +8,30 @@ title: Home
     <p class="eyebrow">About me</p>
 
     <p class="about-text">
-      I am a Ph.D. student in the
-      <a href="https://stat.cornell.edu/" target="_blank" rel="noopener">
-        Department of Statistics and Data Science
-      </a>
-      at
-      <a href="https://www.cornell.edu/" target="_blank" rel="noopener">
-        Cornell University,
-      </a>
-      where I am advised by Professor
-      <a href="https://stat.cornell.edu/people/martin-t-wells"
-         target="_blank"
-         rel="noopener">
-        Martin T. Wells. 
-      </a> I also collaborate with Professor
+  I am a Ph.D. student in the
+  <a href="https://stat.cornell.edu/" target="_blank" rel="noopener">
+    Department of Statistics and Data Science
+  </a>
+  at
+  <a href="https://www.cornell.edu/" target="_blank" rel="noopener">
+    Cornell University,
+  </a>
+  where I am advised by Professor
+  <a href="https://stat.cornell.edu/people/martin-t-wells"
+     target="_blank"
+     rel="noopener">
+    Martin T. Wells
+  </a>.
+  I also work closely with Professor
   <a href="https://www.jelenabradic.net/"
      target="_blank"
      rel="noopener">
     Jelena Bradic
   </a>
-  on problems in active statistical inference.
-    </p>
+  on problems in active statistical inference and statistical machine learning.
+  More broadly, my research interests span time-series econometrics,
+  statistical learning, and stochastic optimization.
+</p>
 
     <p class="about-text">
       Prior to Cornell, I spent two wonderful years at
