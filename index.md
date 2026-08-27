@@ -20,10 +20,14 @@ title: Home
       <a href="https://stat.cornell.edu/people/martin-t-wells"
          target="_blank"
          rel="noopener">
-        Martin T. Wells.
-      </a>
-      My research interests include econometrics, nonstationary problems,
-      optimization, and statistical learning theory.
+        Martin T. Wells. 
+      </a> I also collaborate with Professor
+  <a href="https://www.jelenabradic.net/"
+     target="_blank"
+     rel="noopener">
+    Jelena Bradic
+  </a>
+  on problems in active statistical inference.
     </p>
 
     <p class="about-text">
